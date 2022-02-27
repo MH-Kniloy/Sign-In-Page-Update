@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+
+  <!-- sign up page   -->
+
+  <title>Create an account</title>
+</head>
+
+<body>
+<h1>
+  Sign Up
+</h1>
+
+ <h2>Create your account</h2>
+ <!-- sign up form  -->
+ <div>
+ <form> 
+   <fieldset class="fieldset-signup1">
+     <legend class="lgn1"> <b> Name & Email</b></legend>
+   <label for="fname">First name</label> <br>
+  <input type="text" name="fname" id="fname" placeholder="John" required size="38"> <br> <br>
+
+  <label for="lname">Last name</label>  <br>
+  <input type="text" name="lname" id="lname" placeholder="Doe" required size="38"> <br> <br>
+
+  <label for="email">Email</label> <br>
+  <input type="email" name="email" id="email" placeholder="username                                        @gmail.com" required size="38"> <br> <br>
+</fieldset>
+    
+
+
+  <fieldset class="fieldset-signup2">
+    <legend class="lgn2"> <b> Password</b></legend>
+  <label for="password">password</label><br>
+   <input type="password" name="password" id="password"placeholder="password" required size="38"> <br> <br>
+
+   <!-- confirm password needs javascript -->
+
+   <label for="Confirm password">Confirm password</label> <br>
+   <input type="password" name="confirm password" id="confirm password" placeholder="Retype password" required size="38"> <br> <br>
+     
+  </fieldset>
+
+   <fieldset class="fieldset-signup3">
+      <legend class="lgn3"><b>Birthday & Gender</b></legend>
+
+   <label for="birthday">Date of birth</label>
+   <input type="date" name="birthday" id="birthday" required> <br> 
+    
+   <p>Select your gender</p>
+   <input type="radio" id="male" name="gender">
+   <label for="male">Male</label>
+
+   <input type="radio" id="female" name="gender">
+   <label class="lebel" for="female">Female</label>
+   
+  </fieldset> <br>
+
+   <input class="signUp-btn" type="submit" value="Sign Up">
+
+   <input class="signUp-btn" type="reset">
+
+ </form>
+</div>
+  <p class="signUp">Already have an account? Please <a href="../index.html" target="blank"> <b> Sign In</b></a></p>
+</body>
+</html>

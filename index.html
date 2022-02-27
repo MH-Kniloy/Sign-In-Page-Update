@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Title for ligin page  -->
+
+  <title>Log In Page</title>
+
+</head>
+
+<body>
+  <h1>
+     Sign In
+  </h1>
+
+ <!-- username and password -->
+  <div class="div1">
+    <form>
+    <fieldset class="fieldset1">
+      <!-- <legend class="legend1"> <b> Username & Password</b></legend> -->
+    <label for="username">Username:</label>
+   <input type="text" name="username" id="username" placeholder="Username" required size="33"> <br> <br>
+   <label for="Password">Password:</label>
+   <input type="password" name="Password" id="Password" placeholder="Password" required size="33"> <br> <br>
+  
+    <!-- show password needs javascript to work  -->
+
+   <input type="checkbox" name="show password" id="show password">
+   <label for="show password">Show password</label>
+  </fieldset>
+
+   <p><a href="html/forgot_password.html" target="blank"> <b> Forgot Password?</b></a></p>
+
+     <!-- Remember me not working later have to add javascript -->
+
+   <input type="checkbox" value="Remember Me" id="Remember Me">
+   <label for="Remember Me">Remember Me</label>
+   <input class="signin-btn" type="submit" value="Sign In"> 
+
+  </form>
+</div>
+
+  
+  <p class="signUp">Don't have an account? Please <a href="html/sign_up.html" target="blank"> <b> Sign Up</b></a></p>
+</body>
+</html>

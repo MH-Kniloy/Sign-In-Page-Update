@@ -1,0 +1,147 @@
+html{
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: aliceblue;
+  
+}
+
+h2 {
+  text-align: center;
+}
+
+/* form margin */
+div {
+  margin: 0% 40%;
+}
+
+/* body background */
+body{
+  background-color: rgb(20, 1, 20);
+  font-family:sans-serif;
+  color: aliceblue
+  
+}
+
+/* form style */
+.div1{
+  background-color:black ;
+  padding: 20px;
+  border-radius: 15px;
+  border: 3px solid aliceblue;
+  
+}
+  
+/* fieldset style */
+.fieldset1{
+  background-color: rgb(175, 25, 125);
+  border-radius: 15px;
+  border: none;
+  color: greenyellow;
+}
+/* forgot password style  */
+
+.fieldset2{
+  border-radius: 10px;
+  border: solid greenyellow;
+}
+
+/* signup form style */
+.fieldset-signup1{
+  border-radius: 10px;
+  border: solid purple;
+  
+}
+.fieldset-signup2{
+  border-radius: 10px;
+  border: solid greenyellow;
+  
+}
+.fieldset-signup3{
+  border-radius: 10px;
+  border: solid purple;
+  
+}
+
+.lgn1{
+  color: greenyellow;
+}
+.lgn2{
+  color: purple;
+}
+.lgn3{
+  color: greenyellow;
+}
+
+input{
+  background-color: black;
+  border:white solid;
+  height: 30px;
+  border-radius: 10px;
+  color: white;
+}
+
+/* .legend1{
+  color: red;
+} */ 
+
+/* sign in style  */
+.signin-btn{
+  background-color: white;
+  padding: 5PX;
+  border-radius: 10PX;
+  border: none;
+  cursor: pointer;
+  color: black;
+  
+}
+
+.signin-btn:hover {
+  background-color: rgb(185, 11, 98);;
+  color: aliceblue;
+  transition: 0.4s;
+}
+
+/* sign up button style  */
+.signUp-btn{
+  background-color: black;
+  padding: 5PX;
+  border-radius: 10PX;
+  border: solid white;
+  cursor: pointer;
+  color: white; 
+}
+
+.signUp-btn:hover{
+  background-color: rgb(185, 11, 98);;
+  color: aliceblue;
+  transition: 0.4s;
+  border: none;
+}
+
+/* link margin */
+.signUp{
+  margin: 0% 40%;
+  margin-top: 7px;
+  color: aliceblue;
+}
+
+a{
+  text-decoration: none;
+  color:rgb(185, 11, 98);
+}
+
+a:hover{
+  background-color: rgb(69, 180, 69);
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 10px;
+}
+/* for responsiveness */
+@media (max-width:600px) { div { margin: 0%;}  
+}
+@media (max-width:600px) { .signUp { margin: 0%; margin-top: 6px;}
+}
+
