@@ -167,8 +167,8 @@ a:hover{
 /* for responsiveness */
 @media (max-width:600px) { div { margin: 0%;}  
 }
-@media (max-width:600px) { .signUp {  position: absolute; margin-top: 60%; margin-right: 0%; margin-left: 0%;}
+@media (max-width:600px) { .signUp {  position: absolute; margin-top: 90%; margin-right: 0%; margin-left: 0%;}
 }
-@media (max-width:600px) { .signUp1 {  position: absolute; margin-top: 143%; margin-right: 0%; margin-left: 0%;}
+@media (max-width:600px) { .signUp1 {  position: absolute; margin-top: 180%; margin-right: 0%; margin-left: 0%;}
 }
 
